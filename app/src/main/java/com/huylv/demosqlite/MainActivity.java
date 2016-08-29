@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Pokemon.findById(Pokemon.class,(long)1);
 
         Pokemon p = new Pokemon();
         p.setName("sss");
